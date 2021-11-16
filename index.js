@@ -25,7 +25,7 @@ form.addEventListener('submit', e => {
     /*
     If you put valid data
     */
-    if (text.value.length < 8 or text.value.length > 32) {
+    if (text.value.length < 8 || text.value.length > 32) {
         text.value = ""
         text.setAttribute('placeholder', 'Must be at least 8 characters, and at most 32!')
         return
