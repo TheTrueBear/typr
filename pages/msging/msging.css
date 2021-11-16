@@ -1,0 +1,51 @@
+body {
+  color: #dddddd;
+  background-color: #18172b;
+}
+
+/* The content of the messages */
+#msg-cont {
+    /* Positioning */
+    position: absolute;
+    top: 0%; bottom: 7%; left:5%; right:5%;
+
+    /* Background and border */
+    background-color: #40365e;
+    border: 10px solid #24223f;
+    border-bottom: 0px solid #24223f;
+
+    /* Text */
+    font-family: 'Monaco', monospace;
+    font-size: large;
+
+    overflow-y: auto;
+}
+
+/*
+The message sending form
+*/
+#send {
+    /* Positioning */
+    position: absolute;
+    top: 93%; bottom: 0%; left: 5%; right: 5%;
+
+    /* Background and border */
+    background-color: #312a49;
+
+    border: 10px solid #24223f;
+    border-top: 0px solid #24223f;
+}
+
+/* The text box */
+#take-inp {
+    position: absolute;
+    top: 0px; bottom: 0px; left: 0px; right: 0px;
+    width: 99.7%;
+
+    background-color: #454055;
+
+    border-width: 0px;
+
+    font-family: 'Monaco', monospace;
+    font-size: large;
+}
