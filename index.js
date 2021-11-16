@@ -14,6 +14,9 @@ socket.on('sign-up', data => {
   localStorage.setItem('user-name', name)
   window.location.replace("pages/msging/msging.html")
 })
+socket.on('log-fail', msg => {
+  alert(msg)
+})
 
 form.addEventListener('submit', e => {
 

@@ -74,3 +74,12 @@ body {
     background-color: #454055;
     border: 2px solid #18172b;
 }
+#submit {
+  background-color: #454055;
+  position: absolute;
+  bottom: 5%;
+  top: 90%;
+  left: 0%;
+  right: 0%;
+  width: 100%;
+}
