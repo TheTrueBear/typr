@@ -1,0 +1,76 @@
+html {
+    box-sizing: border-box;
+} *, *:before, *:after {
+  box-sizing: inherit;
+}
+
+#signin {
+    position: absolute;
+    top:20%;bottom:20%;left:30%;right:30%;
+    color: #dddddd;
+    background-color: #40365e;
+
+    padding: 0%;
+}
+
+body {
+    background-color: #18172b;
+    font-family: 'Monaco', monospace;
+}
+
+#signin-title {
+    font-size: larger;
+    text-align: center;
+}
+
+#w-name {
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right:0;
+
+    text-align: center;
+    font-family: 'Monaco', monospace;
+    /*font-size: 10%;*/
+    font-size: 3.5vw;
+    color: #dddddd;
+}
+#desc {
+    position: absolute;
+    top: 9%; bottom: 0px; left: 0px; right:0px;
+
+    text-align: center;
+    font-family: 'Monaco', monospace;
+    /*font-size: 10%;*/
+    font-size: 1.5vw;
+    color: #dddddd;
+}
+
+#name {
+    position: absolute;
+    bottom: 30%;
+
+    width: 100%;
+    height: 15%;
+
+    color: #dddddd;
+    font-family: 'Monaco', monospace;
+    text-align: center;
+    font-size: large;
+
+    background-color: #454055;
+    border: 2px solid #18172b;
+}
+#pass {
+    position: absolute;
+    bottom: 15%;
+
+    width: 100%;
+    height: 15%;
+
+    color: #dddddd;
+    font-family: 'Monaco', monospace;
+    text-align: center;
+    font-size: large;
+
+    background-color: #454055;
+    border: 2px solid #18172b;
+}
